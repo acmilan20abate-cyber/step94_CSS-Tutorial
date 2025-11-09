@@ -1,1 +1,27 @@
-/* p要素に適用するスタイル */
+/* p要素に適用するスタイル(自分の回答) */
+/* p{
+  display: inline-block;
+  color: white;
+  background-color: #00008B;
+  width: 160px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  border:yellow 10px ridge;
+  border-top:yellow 5px dotted;
+  border-bottom: red 10px ridge;
+} */
+
+p {
+  display: inline-block;
+  background-color: #00008b;
+  color: white;
+  width: 160px;
+  text-align: center;
+  padding: 10px 0;
+  margin-right: 20px;
+  border-style: dotted ridge ridge solid;
+  border-color: yellow yellow red yellow;
+  border-width: 5px 10px 10px 5px;
+}
